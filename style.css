@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border: border-box;
+}
+/*black color bar at top of the page*/
+.navbar {
+ height:60px;
+ background-color:#0F1111 ;
+ color:white ;
+ display: flex;
+ /* This will help to show all icon & text in same line of the bar*/
+align-items: center;
+justify-content:space-evenly ;/*sapce out evenly*/
+}
+
+
+.nav-logo{
+    height: 40px;
+    width: 100px;
+
+}
+.logo{
+    background-image:url("ama.png") ;
+    background-size: cover;
+    height: 50px;
+    width: 200px;
+}
+.border a{
+    border:2px solid transparent; /* it wont show border bcoz transparent*/
+
+}
+.border:hover{
+    border: 2px solid #ffffff;/* will show border while hovering*/
+
+}
+/** box2*/
+.add-first{
+    color: #cccccc;
+    font-size: 1rem; /*instead of pixle*/
+    margin-left: 15px;
+
+}
+.add-second {
+    font-size:1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+/** box3**/
+.nav-search{
+    display: flex;
+   /* background-color: goldenrod;*/
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+/*border: 2px solid orange;*/
+}
+.search-select{
+    background-color:#f3f3f3;
+    width:50px;
+    text-align:center;
+    border-top-left-radius: 4px;/* it will curve the left side off ALL BOX*/
+    border-bottom-left-radius: 4px;
+    border: none; /* remove by default border of ALL BOX*/
+}
+.search-input{
+    width:100px;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #fedb68;
+    border-top-right-radius: 4%;
+    border-bottom-right-radius: 4px;
+    color: #0F1111;
+
+}
+/*box4*/
+.span{
+
+    font-size: 0.7rem;
+}
+.nav-second{
+   font-size: 0.85rem; 
+   font-weight: 700;/* to account and list*/
+   display:flex;
+   align-items: center;
+justify-content: center;
+}
+/** box6 cart**/
+.nav-cart i{
+    font-size: 35px;
+    height: 30px;
+
+    
+
+}
+.nav-cart{
+   font-size: 0.85rem; 
+   font-weight: 700;
+}
+/** panel starts second line*/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+     display:flex;/** brings text in para bar gey wala**/
+color:white;
+align-items: center;
+justify-content: center;
+}
+.Panel-ops p {
+    display:inline;
+    margin-left:  10px; ;
+}
+.Panel-ops{
+    width:70%;
+font-size: 0.85rem;
+
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight:700 ;
+}
+/** hero section**/
+.hero-section{
+   background-image: url("hero.jpg"); 
+   height: 400px;
+   background-size:cover;
+   height: 600px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+.her-msg{
+    background-color: white;
+    color: black;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width:80% ;
+    margin-bottom: 25px;
+}
+
+    
+.hero-msg  {
+   color: #007185;
+
+}
+
